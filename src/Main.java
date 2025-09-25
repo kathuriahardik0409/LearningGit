@@ -15,8 +15,8 @@ public class Main {
             while(rs.next()) {
                 System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3));
             }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        } catch (SQLException a) {
+            throw new RuntimeException(a);
         }
     }
 }
