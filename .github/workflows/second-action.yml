@@ -21,4 +21,4 @@ jobs:
           python-version: $ {{matrix.python-version}}
 
       - name: Running python File
-        runs: python add.py
+        run: python add.py
